@@ -1,0 +1,35 @@
+The file "The regression tree model of economic values of rice.py" is a script file that analyzes the relationship between the 
+biological traits and economic value of different varieties of rice through the regression tree algorithm based on the data in workbook_1_english.xlsx
+
+The "workbook_1.xlsx" is the source data, which is provided by the "Rice Breeding Decision Support System" database constructed by the Agricultural 
+Information Institute of Chinese Academy of Agricultural Science. 
+
+The script file reads in the "workbook_1.xlsx" and outputs a pdf file "_name_of_economic_value regression tree(max_depth=_a_integer_from_2_to_8)".
+When execute the script, please follow the instruction popped in the console. 
+
+The "biological traits" here includes following columns in "workbook_1.xlsx":
+	1000*number of effective panicle per chinese acre (1 chinese acre = 667 square meters), x[0] in the output regression tree	
+	plant height, x[1] in the output regression tree;
+	panicle length, x[2] in the output regression tree;
+	total number of grains per panicle, x[3] in the output regression tree;	
+	number of filled grains per panicle, x[4] in the output regression tree; 	
+	percentage of filled grains	weight per 1000 grains, x[5] in the output regression tree;	
+	length of grain, x[6];
+	length/width of each grain, x[7] in the output regression tree;
+i.e., the yellow-shaded region of the "data" worksheet of "workbook_1.xlsx". 
+
+The "economic values" here includes following columns in "workbook_1.xlsx":
+	brown rice rate: the percentage of grain that can be processed to brown rice;
+	milled rice rate: the percentage of grain that can be processed to milled rice;	
+	head rice rate: the percentage of grain that can be processed to head rice;
+	chalkiness rate: the percentage of the number of grains with chalkiness over total number of grains;
+	chalkiness: the percentage of  area of the chalky region over the total projection of the grain's area;
+	adhesiveness: when the rice grain melts into paste, the paste has ductility. The adhesiveness is the maximum length that the paste can extend until it breaks into two parts;
+	percentage of amylose;	
+	full growth peroid;	
+	yield (kg per chinese acre, 1 chinese acre = 667 square meter); 
+i.e., the blue-shaded region of the "data" worksheet of "workbook_1.xlsx". 
+
+
+
+
